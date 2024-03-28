@@ -19,7 +19,7 @@ pub use hub_connection::ServerHubConn;
 
 
 pub const SERVER_ADDR: SocketAddrV4 = SocketAddrV4::new(Ipv4Addr::new(0, 0, 0, 0), 39453);
-pub const SERVER_NAME: &str = "ferris-server";
+pub const SERVER_NAME: &str = "Free for all";
 
 pub async fn start_server(hub_conn: ServerHubConn) {
     let game_session = GameSession::new();
