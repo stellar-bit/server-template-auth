@@ -18,8 +18,8 @@ mod hub_connection;
 pub use hub_connection::ServerHubConn;
 
 
-pub const SERVER_ADDR: SocketAddrV4 = SocketAddrV4::new(Ipv4Addr::new(0, 0, 0, 0), 39453);
-pub const SERVER_NAME: &str = "Free for all";
+pub const SERVER_ADDR: SocketAddrV4 = todo!(); // public server address including port
+pub const SERVER_NAME: &str = todo!();
 
 pub async fn start_server(hub_conn: ServerHubConn) {
     let game_session = GameSession::new();
